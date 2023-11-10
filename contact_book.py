@@ -5,6 +5,14 @@
 # Use lists and tuples to store contact details.
 # Practice adding, removing, and editing contacts, and searching for a specific contact.
 # Implement string methods for formatting and validating input (like email format validation).
+#
+# To add: 
+# Remove Contacts
+# Exception handling: Name already exists, to not overwrite. Emailadress is valid (@). Name = str, Phone = int
+# Editing existing entries
+# Export and import function to e.g. .csv  --- Which format is best for importing/exporting for databases?
+# 
+
 
 from prettytable import PrettyTable
 
