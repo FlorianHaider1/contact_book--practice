@@ -8,6 +8,7 @@
 #
 # To add: 
 # Remove Contacts
+# Using sets to import a second list of numbers or email and check with sets if there are duplicates
 # Add titles to prettytable
 # Exception handling: Name already exists, to not overwrite. Emailadress is valid (@). Name = str, Phone = int
 # Editing existing entries
