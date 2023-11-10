@@ -8,6 +8,7 @@
 #
 # To add: 
 # Remove Contacts
+# Add titles to prettytable
 # Exception handling: Name already exists, to not overwrite. Emailadress is valid (@). Name = str, Phone = int
 # Editing existing entries
 # Export and import function to e.g. .csv  --- Which format is best for importing/exporting for databases?
