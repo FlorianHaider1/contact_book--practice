@@ -1,19 +1,17 @@
 # Create a program to manage a contact book.
 # Each contact can have a name, phone number, email, and address.
-# Practice Skills:
-# Use a dictionary to store contacts (with names as keys).
-# Use lists and tuples to store contact details.
-# Practice adding, removing, and editing contacts, and searching for a specific contact.
+
 # Implement string methods for formatting and validating input (like email format validation).
 #
 # To add: 
 # Remove Contacts
+# add address line to see how easy it is to integrate
+# search function for specific contact
 # Using sets to import a second list of numbers or email and check with sets if there are duplicates
-# Add titles to prettytable
 # Exception handling: Name already exists, to not overwrite. Emailadress is valid (@). Name = str, Phone = int
+# Implement string methods for formatting and validating input (like email format validation).
 # Editing existing entries
 # Export and import function to e.g. .csv  --- Which format is best for importing/exporting for databases?
-# 
 
 
 from prettytable import PrettyTable
@@ -53,6 +51,7 @@ def import_to_dictionary():
 # table to print the entries 
 def display_contacts():
     table = PrettyTable()
+    table.field_names = ["Name", "Phone", "Email"]
     for values in contacts.values():
         table.add_row(values)
     print(table)
